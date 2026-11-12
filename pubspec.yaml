@@ -1,0 +1,34 @@
+name: app_previsao_tempo
+description: "App para previsão do tempo em flutter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.13.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  xml: ^6.5.0
+  font_awesome_flutter: ^11.0.0
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  image_path: assets/icons/sunny.png
+  adaptive_icon_background: "#FFFFD180"
+  adaptive_icon_foreground: assets/icons/sunny.png
